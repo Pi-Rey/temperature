@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -23,7 +22,7 @@ public: //Constructor
 		int tempTemporal;
 		cout << "Enter temperature for " << Name << ": " << endl;
 		cin >> tempTemporal;
-        
+
 		while (tempTemporal <= -60 || tempTemporal >= 60) {
 			cout << "Invalid temperature. Enter temperature for " << Name << ": " << endl;
 			cin >> tempTemporal;
